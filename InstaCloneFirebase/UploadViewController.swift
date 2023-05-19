@@ -79,7 +79,18 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                               let imageUrl = url?.absoluteString
                              
                               
+                              let fireStoreDatabase = Firestore.firestore()
+                              var fireStoreReference : DocumentReference? = nil
                               
+                              let fireStorePosts = ["imageUrl" : imageUrl!, "postedBy" : Auth.auth().currentUser!.email, "postComment" : self.commentText.text!, "date" : "date", "likes" : 0] as [String : Any]
+                              
+                              fireStoreReference = fireStoreDatabase.collection("Posts").addDocument(data : fireStorePosts, completion: { (error) in
+                                  if error != nil {
+                                      self.makeAlert(titleInput: "Error", messageInput: error? .localizedDescription ?? "Error")
+                                      
+                                  }
+                              })
+                            
                         }
                     }
                     
