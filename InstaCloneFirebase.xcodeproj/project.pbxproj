@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0825D4202A18DC710046B39D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0825D41F2A18DC710046B39D /* FeedCell.swift */; };
 		0878BB012A14E7F000F1797D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878BB002A14E7F000F1797D /* FeedViewController.swift */; };
 		0878BB032A14E80500F1797D /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878BB022A14E80500F1797D /* UploadViewController.swift */; };
 		0878BB052A14E81200F1797D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878BB042A14E81200F1797D /* SettingsViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0825D41F2A18DC710046B39D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		0878BB002A14E7F000F1797D /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0878BB022A14E80500F1797D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		0878BB042A14E81200F1797D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				0878BB002A14E7F000F1797D /* FeedViewController.swift */,
 				0878BB022A14E80500F1797D /* UploadViewController.swift */,
 				0878BB042A14E81200F1797D /* SettingsViewController.swift */,
+				0825D41F2A18DC710046B39D /* FeedCell.swift */,
 				08FBAC172A0908D000D404BC /* Main.storyboard */,
 				08FBAC1A2A0908D100D404BC /* Assets.xcassets */,
 				08FBAC1C2A0908D100D404BC /* LaunchScreen.storyboard */,
@@ -227,6 +230,7 @@
 				0878BB032A14E80500F1797D /* UploadViewController.swift in Sources */,
 				08FBAC122A0908D000D404BC /* AppDelegate.swift in Sources */,
 				0878BB012A14E7F000F1797D /* FeedViewController.swift in Sources */,
+				0825D4202A18DC710046B39D /* FeedCell.swift in Sources */,
 				08FBAC142A0908D000D404BC /* SceneDelegate.swift in Sources */,
 				0878BB052A14E81200F1797D /* SettingsViewController.swift in Sources */,
 			);
